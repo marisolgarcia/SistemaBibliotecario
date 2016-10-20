@@ -1,0 +1,233 @@
+body
+{
+	font-family: Arial;
+	background: #1C1C1C;
+}
+
+#mensaje
+{
+
+	float: left;
+	margin-left: 18%;
+	color: red;
+	font-size: 120%;
+}
+
+#contenedor
+{
+	text-align: center;
+	width:100%;
+	max-width: 1340px;
+	margin:0 auto;
+	overflow: hidden;
+
+}
+
+#titulo
+{
+	margin-top: -20px;
+	background: #B40404;
+	width: 100%;
+	height: 4%;
+}
+
+
+#titulo img
+{
+	float: left;
+	width: 8%;
+	margin-left: 19%;
+	height: 105px;
+
+}
+
+#titulo h1
+{
+	color: white;
+	padding: 0px 0;
+	text-align: center;
+	text-decoration: underline;
+	font-family: serif;
+	margin-right: 8%;
+
+}
+#titulo h2
+{
+	color:white;
+	text-align: center;
+	margin-top: -1%;
+	padding: 0px 0;
+	font-family: serif;
+	margin-right: 8%;
+}
+
+#subtitulo
+{
+	width: 80%;
+	text-align: left;
+}
+
+#datos
+{
+	width: 30%;
+	background: white;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	margin-left:35%;
+	margin-top: 0%;
+	margin:5 auto;
+	border:15px solid #808080;
+	border-radius: 15%;
+	border-color: #B40404;
+	font-family: tahoma;
+}
+
+#datos img
+{
+	float: left;
+	width: 50%;
+	margin-left: 25%;
+	height: 200px;
+}
+
+.etiquetas
+{
+	float: left;
+	text-align: center;
+	width:30%;
+	font-size: 100%;
+	margin-top: 8%;
+	margin-left: 5%;
+}
+
+.textfield
+{
+	float: left;
+	width:50%;
+	height:5%;
+	border:100% solid #04B4AE;
+	padding:1%;
+	margin-left: 10%;
+	margin-top: 8%;
+}
+
+.recordar
+{
+	float: left;
+	width:60%;
+	height:5%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+
+.btnIngresar
+{
+	float: left;
+	width:50%;
+	height:45px;
+	border-radius: 20%;
+	background: #B40404;
+	font-family: tahoma;
+	color:white;
+	font-size:110%;
+	margin-left: 25%;
+	margin-top: 8%;
+}
+
+.btnIngresar:hover
+{
+	background: #04B4AE;
+	font-size:140%;
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+	body
+	{
+		font-size: 100%;
+	}
+	#datos
+	{
+		width: 80%;
+		margin-left:10%;
+	}
+	.recordar
+	{
+		float: left;
+		margin-left: 23%;
+
+	}
+	#mensaje
+	{
+		margin-left: 25%;
+
+	}
+	#titulo img
+	{
+		margin-left: 5%;
+
+	}
+	#subtitulo
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	body
+	{
+		font-size: 70%;
+	}
+	#titulo img
+	{
+		margin-left: 25%;
+		float: left;
+		width: 50%;
+		height: auto;
+
+	}
+
+	.etiquetas
+	{
+		font-size: 70%;
+
+	}
+
+	.recordar
+	{
+		width: 100%;
+		float: left;
+		margin-left: 5%;
+	}
+
+	#btnIngresar
+	{
+		width: 75%;
+		margin-left: 12%;
+	}
+	#mensaje
+	{
+		float: left;
+		width: 100%;
+		margin-left: 3%;
+
+	}
+	#titulo img
+	{
+		margin-left: 30%;
+		width: 35%;
+		height: auto;
+
+	}
+	#subtitulo
+	{
+		width: 100%;
+		margin-left: 3%;
+	}
+
+}
